@@ -1,0 +1,39 @@
+2022-11-18 15:04:27 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-18 15:04:27 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-11-18 15:04:37 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-18 15:04:37 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-18 15:04:39 INFO  SetUp - Chrome Browser Launched..
+2022-11-18 15:04:56 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-11-18 15:04:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-18 15:04:56 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-18 15:04:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-11-18 15:04:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-18 15:05:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-18 15:05:47 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-18 15:05:51 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-11-18 15:06:01 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-11-18 15:06:04 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-11-18 15:06:05 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-11-18 15:06:14 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-11-18 15:06:17 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-11-18 15:06:17 INFO  CommonMethods - Sucessfully clicked on clickonRaisedbyRadiobutton_XPATH
+2022-11-18 15:06:21 INFO  CommonMethods - Sucessfully clicked on RaisedbySearchBox_XPATH
+2022-11-18 15:06:22 INFO  CommonMethods - Data sucessfully entered on RaisedbySearchBox_XPATH = Consumer
+2022-11-18 15:06:25 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-11-18 15:06:28 INFO  CommonMethods - Sucessfully clicked on SelectConsumer_XPATH
+2022-11-18 15:06:28 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='cust_161']"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.43.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bd02607faf90897a6278ceaa038f9f2, findElement {using=xpath, value=//select[@name='cust_161']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56904/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bd02607faf90897a6278ceaa038f9f2
+2022-11-18 15:06:29 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-11-18 15:06:29 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-11-18 15:06:31 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-11-18 15:06:33 INFO  SetUp - Browser Closed..

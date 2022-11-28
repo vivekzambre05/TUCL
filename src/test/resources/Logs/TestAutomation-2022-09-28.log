@@ -1,0 +1,7 @@
+2022-09-28 17:16:31 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 17:16:31 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-28 17:16:32 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-09-28 17:16:32 INFO  SetUp - Test Case_VerifyKnowledgeBase_Successfully Started
+2022-09-28 17:16:32 INFO  SetUp - Test Case_VerifyKnowledgeBase_get Skipped as its Runmode is 'NO' 

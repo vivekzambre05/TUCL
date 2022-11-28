@@ -1,0 +1,97 @@
+2022-08-24 09:44:44 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-24 09:44:44 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-24 09:44:49 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 09:44:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 09:44:51 INFO  SetUp - Chrome Browser Launched..
+2022-08-24 09:45:03 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-08-24 09:45:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-24 09:45:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-24 09:45:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-08-24 09:45:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-24 09:45:05 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-24 09:45:06 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-24 09:45:21 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+chrome not reachable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.9.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21ec717d71a9ffcaa34d81bb3841c730, findElement {using=xpath, value=//div[@class="header__item header__profile ht-3 mid relative pointer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60079/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 21ec717d71a9ffcaa34d81bb3841c730
+2022-08-24 09:46:24 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-24 09:46:24 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-24 09:46:25 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 09:46:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 09:46:27 INFO  SetUp - Chrome Browser Launched..
+2022-08-24 09:46:29 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-08-24 09:46:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-24 09:46:30 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-24 09:46:30 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-08-24 09:46:30 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-24 09:46:31 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-24 09:46:38 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-24 09:46:38 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-08-24 09:46:39 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-08-24 09:46:39 INFO  LoginPage - Sucessfully logout..
+2022-08-24 09:46:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-08-24 09:46:40 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-08-24 09:46:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-08-24 09:46:42 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-24 09:46:42 INFO  SetUp - Browser Closed..
+2022-08-24 09:56:58 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-24 09:56:58 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-24 09:57:00 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-24 09:57:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-24 09:57:02 INFO  SetUp - Chrome Browser Launched..
+2022-08-24 09:57:04 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-08-24 09:57:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-24 09:57:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-24 09:57:05 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-08-24 09:57:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-24 09:57:05 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-24 09:57:13 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-24 09:57:14 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-08-24 09:57:15 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-08-24 09:57:15 INFO  LoginPage - Sucessfully logout..
+2022-08-24 09:57:15 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-08-24 09:57:15 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-08-24 09:57:16 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-08-24 09:57:18 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-24 09:57:18 INFO  SetUp - Browser Closed..

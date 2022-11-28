@@ -1,0 +1,72 @@
+2022-08-25 17:09:48 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-25 17:09:48 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-25 17:09:57 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:09:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:09:59 INFO  SetUp - Chrome Browser Launched..
+2022-08-25 17:10:02 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-08-25 17:10:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-25 17:10:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-25 17:10:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-08-25 17:10:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-25 17:10:06 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-25 17:10:13 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-25 17:10:14 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-08-25 17:10:15 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-08-25 17:10:15 INFO  LoginPage - Sucessfully logout..
+2022-08-25 17:10:15 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-08-25 17:10:16 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-08-25 17:10:17 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-08-25 17:10:19 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-25 17:10:19 INFO  SetUp - Browser Closed..
+2022-08-25 17:11:22 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-25 17:11:22 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-25 17:11:25 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 17:11:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 17:11:27 INFO  SetUp - Chrome Browser Launched..
+2022-08-25 17:11:29 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-08-25 17:11:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-25 17:11:30 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-25 17:11:31 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-08-25 17:11:32 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-25 17:11:33 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-25 17:12:00 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-25 17:12:03 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-08-25 17:12:08 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-08-25 17:12:09 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-08-25 17:12:10 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-08-25 17:12:12 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-25 17:12:12 INFO  SetUp - Browser Closed..

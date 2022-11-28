@@ -1,0 +1,167 @@
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:49:28 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\AppData\Local\Temp\testng-eclipse-825735038\testng-customsuite.xml
+
+2022-09-06 16:49:28 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2022-09-06 16:49:40 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-06 16:49:40 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-09-06 16:49:42 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_win32.zip
+2022-09-06 16:49:48 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-09-06 16:49:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-06 16:49:50 INFO  SetUp - Chrome Browser Launched..
+2022-09-06 16:50:04 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-06 16:50:05 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-06 16:50:05 INFO  SetUp - Browser Closed..
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@439d545c: 0 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@36211bbc: 25 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3f357c9d: 37 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@6f8667bb: 13 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@328e4ec2: 6 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7d3bf8db: 10 ms
+2022-09-06 16:50:05 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5f61e002: 9 ms
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-09-06 16:54:17 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\AppData\Local\Temp\testng-eclipse-583942519\testng-customsuite.xml
+
+2022-09-06 16:54:17 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2022-09-06 16:54:18 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-06 16:54:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-06 16:54:19 INFO  SetUp - Chrome Browser Launched..
+2022-09-06 16:54:21 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-06 16:54:22 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-06 16:54:22 INFO  SetUp - Browser Closed..
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@45bbc52f: 0 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5fb5ad40: 32 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@103c97ff: 39 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@69f080ad: 19 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@407b8435: 6 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@448ade1: 11 ms
+2022-09-06 16:54:22 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7cfb8e98: 11 ms
+2022-09-06 17:02:48 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-06 17:02:48 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-06 17:02:50 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-06 17:02:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-06 17:02:53 INFO  SetUp - Chrome Browser Launched..
+2022-09-06 17:02:56 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-06 17:02:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-06 17:02:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-06 17:02:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-06 17:02:58 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-06 17:02:58 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-06 17:03:01 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-06 17:05:18 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-06 17:05:18 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-06 17:05:19 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-06 17:05:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-06 17:05:22 INFO  SetUp - Chrome Browser Launched..
+2022-09-06 17:05:24 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-06 17:05:24 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-06 17:05:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-06 17:05:25 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-06 17:05:25 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-06 17:05:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-06 17:05:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-06 17:06:33 ERROR CommonMethods - Not Sucessfully clicked on CaseObject_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj9'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51426/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02cfd04b4517d16fafe1ec345fad8c21
+2022-09-06 17:07:33 ERROR CommonMethods - Unable to mouse hover due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='page-title__icon icon icon-new popover__title page-title__icon f13 brand mh-6'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51426/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02cfd04b4517d16fafe1ec345fad8c21

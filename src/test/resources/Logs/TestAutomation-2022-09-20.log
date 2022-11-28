@@ -1,0 +1,429 @@
+2022-09-20 17:07:55 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:07:55 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:08:08 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:08:08 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:08:10 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:08:11 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:08:12 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:08:12 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:08:12 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:08:12 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:08:13 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:08:17 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:08:21 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:08:25 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:08:28 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:08:28 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:08:31 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:08:35 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:08:35 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:08:36 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:08:36 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:08:39 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:08:44 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:08:49 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:08:49 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:08:52 ERROR CommonMethods - Not able to select from dropdown Select_Valuefrom_AssignedtoTeam_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-09-20 17:08:52 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:08:52 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:08:52 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:08:53 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:08:55 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:08:55 INFO  SetUp - Browser Closed..
+2022-09-20 17:13:16 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:13:16 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:13:20 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:13:20 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:13:22 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:13:25 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:13:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:13:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:13:26 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:13:27 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:13:28 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:13:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:13:40 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:13:45 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:13:48 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:13:49 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:13:52 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:13:56 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:13:56 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:13:57 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:13:57 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:14:00 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:14:03 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:14:05 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:14:05 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:14:11 ERROR CommonMethods - Not able to select from dropdown Select_Valuefrom_AssignedtoTeam_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-09-20 17:14:14 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:14:14 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:14:14 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:14:15 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:14:17 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:14:17 INFO  SetUp - Browser Closed..
+2022-09-20 17:26:39 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:26:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:26:40 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:26:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:26:42 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:26:44 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:26:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:26:45 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:26:45 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:26:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:26:46 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:26:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:26:56 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:27:01 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:27:04 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:27:04 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:27:07 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:27:11 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:27:11 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:27:12 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:27:12 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:27:15 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:27:18 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:27:20 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:27:20 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:27:27 ERROR CommonMethods - Not able to select from dropdown Select_Valuefrom_AssignedtoTeam_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-09-20 17:27:29 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:27:29 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:27:29 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:27:30 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:27:31 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:27:31 INFO  SetUp - Browser Closed..
+2022-09-20 17:33:14 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:33:14 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:33:15 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:33:15 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:33:17 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:33:19 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:33:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:33:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:33:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:33:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:33:20 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:33:24 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:33:29 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:33:33 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:33:36 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:33:37 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:33:40 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:33:43 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:33:44 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:33:44 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:33:45 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:33:48 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:33:51 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:33:53 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:33:53 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:33:59 ERROR CommonMethods - Not able to select from dropdown Select_Valuefrom_AssignedtoTeam_XPATHdue to Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+2022-09-20 17:34:02 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:34:02 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:34:02 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:34:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:34:04 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:34:04 INFO  SetUp - Browser Closed..
+2022-09-20 17:41:55 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:41:55 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:42:00 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:42:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:42:03 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:42:06 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:42:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:42:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:42:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:42:08 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:42:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:42:15 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:42:20 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:42:25 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:42:28 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:42:29 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:42:33 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:42:36 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:42:37 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:42:37 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:42:37 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:42:41 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:42:43 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:42:45 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:42:46 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:42:52 INFO  CommonMethods - Sucessfully clicked on Value_XPATH
+2022-09-20 17:42:54 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:42:54 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:42:55 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:42:56 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:42:58 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:42:58 INFO  SetUp - Browser Closed..
+2022-09-20 17:47:05 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:47:05 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:47:09 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:47:09 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:47:13 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:47:15 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:47:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:47:16 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:47:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:47:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:47:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:47:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:47:30 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:47:37 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:47:40 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:47:41 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:47:45 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:47:48 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:47:49 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:47:49 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:47:50 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:47:53 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:47:56 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:47:58 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:47:59 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:48:05 INFO  CommonMethods - Sucessfully clicked on Value_XPATH
+2022-09-20 17:48:07 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:49:07 ERROR CommonMethods - Not Sucessfully clicked on username_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtName']   (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493a8c002913bc82cca6e54d0e10028b
+2022-09-20 17:49:07 ERROR CommonMethods - Data Not Sucessfully entered on username_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtName']  "}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [493a8c002913bc82cca6e54d0e10028b, findElement {using=xpath, value=//input[@id='TxtName']  }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493a8c002913bc82cca6e54d0e10028b
+2022-09-20 17:49:40 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:49:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:49:45 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:49:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:49:49 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:49:52 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:49:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:49:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:49:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:49:55 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:49:56 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:50:03 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:50:07 ERROR CommonMethods - Not Sucessfully clicked on password_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtPassword'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493a8c002913bc82cca6e54d0e10028b
+2022-09-20 17:50:07 ERROR CommonMethods - Data Not Sucessfully entered on password_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtPassword']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [493a8c002913bc82cca6e54d0e10028b, findElement {using=xpath, value=//input[@id='TxtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493a8c002913bc82cca6e54d0e10028b
+2022-09-20 17:50:09 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:50:15 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:50:18 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:50:20 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:50:23 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:50:27 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:50:27 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:50:28 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:50:28 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:50:31 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:50:35 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:50:37 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:50:37 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:50:44 INFO  CommonMethods - Sucessfully clicked on Value_XPATH
+2022-09-20 17:50:46 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:50:48 ERROR CommonMethods - Not Sucessfully clicked on ProfileBtn_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d26e8c250551cfde90a4e8ad23d4abab, clickElement {id=c58178f7-57b3-44f4-b778-e3dfe3658866}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61612/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d26e8c250551cfde90a4e8ad23d4abab)] -> xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a]
+Session ID: d26e8c250551cfde90a4e8ad23d4abab
+2022-09-20 17:51:08 ERROR CommonMethods - Not Sucessfully clicked on loginBtn_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='command'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61463/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 493a8c002913bc82cca6e54d0e10028b
+2022-09-20 17:51:09 INFO  CommonMethods - Sucessfully clicked on clickoncase_XPATH
+2022-09-20 17:51:10 INFO  CommonMethods - Sucessfully clicked on Select_Assignedtoteam_XPATH
+2022-09-20 17:51:11 INFO  CommonMethods - Data = Assigned to Team Sucessfully Selected from dropdown Select_Valuefromdropdown_XPATH
+2022-09-20 17:51:14 INFO  CommonMethods - Sucessfully clicked on ClickOnArrowButton_XPATH
+2022-09-20 17:51:14 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:51:15 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:51:16 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:51:18 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-20 17:51:18 INFO  SetUp - Browser Closed..
+2022-09-20 17:51:48 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid='Logout']/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '10.81.244.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61612/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d26e8c250551cfde90a4e8ad23d4abab
+2022-09-20 17:51:48 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-09-20 17:51:49 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:51:50 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-20 17:51:54 INFO  SetUp - Browser Closed..
+2022-09-20 17:56:15 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-20 17:56:16 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-20 17:56:21 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-20 17:56:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-20 17:56:24 INFO  SetUp - Chrome Browser Launched..
+2022-09-20 17:56:27 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-09-20 17:56:28 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-20 17:56:28 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-20 17:56:29 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-09-20 17:56:30 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:56:31 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:56:37 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:56:42 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-09-20 17:56:47 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-09-20 17:56:50 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-09-20 17:56:52 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-09-20 17:56:55 INFO  CommonMethods - Sucessfully clicked on EnterArrow_XPATH
+2022-09-20 17:56:59 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-09-20 17:56:59 INFO  CommonMethods - Data = Consumer Sucessfully Selected from dropdown RaisedBy_XPATH
+2022-09-20 17:57:00 INFO  CommonMethods - Data = Email Sucessfully Selected from dropdown channel_XPATH
+2022-09-20 17:57:00 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-09-20 17:57:03 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:57:06 INFO  CommonMethods - Sucessfully clicked on Edit_XPATH
+2022-09-20 17:57:09 INFO  CommonMethods - Sucessfully clicked on ClickEdit_XPATH
+2022-09-20 17:57:09 INFO  CommonMethods - Sucessfully clicked on Select_AssignedTo_Team_XPATH
+2022-09-20 17:57:15 INFO  CommonMethods - Sucessfully clicked on Value_XPATH
+2022-09-20 17:57:17 INFO  CommonMethods - Sucessfully clicked on SaveAndProceed_XPATH
+2022-09-20 17:57:22 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-20 17:57:23 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-20 17:57:23 INFO  LoginPage - Sucessfully logout..
+2022-09-20 17:57:23 INFO  CommonMethods - Sucessfully clicked on username_XPATH
+2022-09-20 17:57:23 INFO  CommonMethods - Data sucessfully entered on username_XPATH = assingh
+2022-09-20 17:57:23 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-20 17:57:23 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-20 17:57:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-20 17:57:27 INFO  CommonMethods - Sucessfully clicked on clickoncase_XPATH
+2022-09-20 17:57:28 INFO  CommonMethods - Sucessfully clicked on Select_Assignedtoteam_XPATH
+2022-09-20 17:57:28 INFO  CommonMethods - Data = Assigned to Team Sucessfully Selected from dropdown Select_Valuefromdropdown_XPATH
+2022-09-20 17:57:32 INFO  CommonMethods - Sucessfully clicked on ClickOnArrowButton_XPATH
+2022-09-20 17:57:32 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-20 17:57:32 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-20 17:57:34 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-20 17:57:37 INFO  SetUp - Browser Closed..

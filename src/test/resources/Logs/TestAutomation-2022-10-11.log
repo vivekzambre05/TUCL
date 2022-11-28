@@ -1,0 +1,121 @@
+2022-10-11 16:51:42 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 16:51:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 16:51:43 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-10-11 16:51:43 INFO  SetUp - Test Case_VerifyKnowledgeBase_Successfully Started
+2022-10-11 16:51:43 INFO  SetUp - Test Case_VerifyKnowledgeBase_get Skipped as its Runmode is 'NO' 
+2022-10-11 16:52:47 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 16:52:47 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 16:52:48 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-10-11 16:58:11 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 16:58:11 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 16:58:12 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-10-11 17:02:48 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 17:02:48 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 17:02:49 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-10-11 17:03:41 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 17:03:41 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 17:03:46 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-11 17:03:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-11 17:03:48 INFO  SetUp - Chrome Browser Launched..
+2022-10-11 17:03:49 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-10-11 17:03:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-11 17:03:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-11 17:03:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-10-11 17:03:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-11 17:03:51 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-11 17:04:02 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-11 17:04:07 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-10-11 17:04:16 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-10-11 17:04:19 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-10-11 17:04:19 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-10-11 17:04:28 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-10-11 17:04:31 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-10-11 17:04:31 INFO  CommonMethods - Sucessfully clicked on clickonRaisedbyRadiobutton_XPATH
+2022-10-11 17:06:21 INFO  Utils - [TestNG] Running:
+  C:\Users\vivek.zambre\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-11 17:06:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-10-11 17:06:22 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-10-11 17:06:22 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vivek.zambre\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-10-11 17:06:24 INFO  SetUp - Chrome Browser Launched..
+2022-10-11 17:06:25 INFO  SetUp - URL : https://tucltest.crmnext.com/GOLD7_Dev/app/login/login
+2022-10-11 17:06:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-11 17:06:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-11 17:06:26 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = apowle
+2022-10-11 17:06:26 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-11 17:06:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-11 17:06:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-11 17:06:34 INFO  CommonMethods - Sucessfully clicked on CaseObject_XPATH
+2022-10-11 17:06:37 INFO  CommonMethods - Sucessfully clicked on RequestType_XPATH
+2022-10-11 17:06:40 INFO  CommonMethods - Sucessfully clicked on RequestSearchBox_XPATH
+2022-10-11 17:06:40 INFO  CommonMethods - Data sucessfully entered on RequestSearchBox_XPATH = Account ownership
+2022-10-11 17:06:49 INFO  CommonMethods - Sucessfully clicked on selectAccountOwnership_XPATH
+2022-10-11 17:06:52 INFO  CommonMethods - Sucessfully clicked on HelpSymbol_XPATH
+2022-10-11 17:06:52 INFO  CommonMethods - Sucessfully clicked on clickonRaisedbyRadiobutton_XPATH
+2022-10-11 17:07:55 ERROR CommonMethods - Not Sucessfully clicked on RaisedbySearchBox_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='Grid_SearchTextBox'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.64.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52808/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf4c073656015f125b84237a172f44d
+2022-10-11 17:07:55 ERROR CommonMethods - Data Not Sucessfully entered on RaisedbySearchBox_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='Grid_SearchTextBox']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.64.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf4c073656015f125b84237a172f44d, findElement {using=xpath, value=//input[@name='Grid_SearchTextBox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52808/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf4c073656015f125b84237a172f44d
+2022-10-11 17:08:58 ERROR CommonMethods - Not Sucessfully clicked on EnterArrow_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='filterGroup__button acid-btn acid-btn--outline-brand'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.64.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52808/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf4c073656015f125b84237a172f44d
+2022-10-11 17:10:02 ERROR CommonMethods - Not Sucessfully clicked on SelectConsumer_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid='DisplayName_0'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.64.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52808/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf4c073656015f125b84237a172f44d
+2022-10-11 17:10:02 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='cust_161']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'VIVEKZAMBRE', ip: '192.168.64.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cf4c073656015f125b84237a172f44d, findElement {using=xpath, value=//select[@name='cust_161']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\VIVEK~1.ZAM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52808/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cf4c073656015f125b84237a172f44d
+2022-10-11 17:10:02 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-10-11 17:10:02 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-10-11 17:10:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-10-11 17:10:04 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-11 17:10:04 INFO  SetUp - Browser Closed..
